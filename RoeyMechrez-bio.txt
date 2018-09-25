@@ -1,0 +1,2 @@
+Roey Mechrez is currently pursuing his PhD at the department of Electrical Engineering at the Technion. He works at the Computer Graphics & Multimedia lab under supervision of Prof. Lihi Zelnik-Manor. He received the B.Sc. and M.Sc. degrees in Biomedical Engineering (both cum laude) from Tel-Aviv University in 2015.
+His research interests are in the areas of computer vision, machine learning and image processing. More specifically he is interested in photorealistic image synthesis and manipulation, image editing, image similarity and deep learning.
