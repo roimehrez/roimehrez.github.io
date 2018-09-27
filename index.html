@@ -74,7 +74,7 @@
           <name>Roey Mechrez</name>
         </p>
         <p align="justify">I am a PhD student at the department of <a href="https://vee.technion.ac.il/">Electrical Engineering</a> at <a href="https://www.technion.ac.il/en/home-2/">the Technion</a>, where I work on computer vision. 
-		I work at the <a href="http://cgm.technion.ac.il/">Computer Graphics & Multimedia lab</a>  under supervision of <a href="http://lihi.eew.technion.ac.il/">Prof. Lihi Zelnik-Manor.</a> 
+		I work at the <a href="http://cgm.technion.ac.il/">Computer Graphics & Multimedia lab</a>  under supervision of <a href="https://lihi.net.technion.ac.il/">Prof. Lihi Zelnik-Manor.</a> 
 		In my research I've worked on <a href="http://cgm.technion.ac.il/Computer-Graphics-Multimedia/Software/saliencyManipulation/">Saliency Manipulation</a>, 
 		<a href="http://cgm.technion.ac.il/Computer-Graphics-Multimedia/Software/Contextual/">Image Generation</a>, 
 		<a href="http://cgm.technion.ac.il/Computer-Graphics-Multimedia/Software/Contextual/">Super-resolution and normal estimation</a>, 
@@ -89,7 +89,8 @@
           <a href="Roey_Mechrez_CV.pdf">CV</a> &nbsp/&nbsp
           <a href="RoeyMechrez-bio.txt">Biography</a> &nbsp/&nbsp
           <a href="https://scholar.google.co.il/citations?user=ZvIdLmYAAAAJ&hl=en">Google Scholar</a> &nbsp/&nbsp
-          <a href="https://www.linkedin.com/in/roey-mechrez-9637b642/"> LinkedIn </a>
+          <a href="https://www.linkedin.com/in/roey-mechrez-9637b642/"> LinkedIn </a> &nbsp/&nbsp
+		  <a href="https://github.com/roimehrez"> GitHub </a>
         </p>
         </td>
         <td width="33%">
@@ -117,55 +118,7 @@
       </table>
 
   <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-
-<!--=================Paper==========================-->
-    <tr onmouseout="hdrnet_stop()" onmouseover="hdrnet_start()" >
-      <td width="25%">
-        <div class="one">
-        <div  class="two" id = 'hdrnet_image'><img style="width: 180px" src='SRNE_after.png'></div>
-        <img style="width: 180px" src='SRNE_before.png'>
-        </div>
-        <script type="text/javascript">
-        function hdrnet_start() {
-        document.getElementById('hdrnet_image').style.opacity = "1";
-        }
-        function hdrnet_stop() {
-        document.getElementById('hdrnet_image').style.opacity = "0";
-        }
-        hdrnet_stop()
-        </script>
-      </td>
-      <td valign="top" width="75%">
-        <p><a href="https://arxiv.org/pdf/1803.04626">
-        <img style="width: 25px" src="new.png">
-		<papertitle>Maintain Natural Image Statistics with the Contextual Loss</papertitle></a><br>
-          <strong>Roey Mechrez*</strong>,
-		  Itamar Talmi*,
-		  <a href="http://lihi.eew.technion.ac.il/">Lihi Zelnik-Manor</a>
-		  <br>
-        <em>arXiv</em>, 2018 <br>
-        <a href="http://cgm.technion.ac.il/Computer-Graphics-Multimedia/Software/Contextual/">project page</a>
-        /
-        <a href="https://github.com/roimehrez/contextualLoss">GitHub</a>
-		/
-        <a href="https://arxiv.org/abs/1803.04626">arXiv</a>
-		<br>
-		Results: <a href="http://cgm.technion.ac.il/Computer-Graphics-Multimedia/Software/Contextual/resources/SR/BSD100-contextual.zip">BSD100</a>
-		/
-		<a href="http://cgm.technion.ac.il/Computer-Graphics-Multimedia/Software/Contextual/resources/SR/PIRM-contextual.zip">PIRM</a>
-		/
-		<a href="http://cgm.technion.ac.il/Computer-Graphics-Multimedia/Software/Contextual/resources/SR/DIV2K-contextual.zip">DIV2K</a>
-		/
-		<a href="http://cgm.technion.ac.il/Computer-Graphics-Multimedia/Software/Contextual/resources/SR/set5-contextual.zip">set5</a>
-		/
-		<a href="http://cgm.technion.ac.il/Computer-Graphics-Multimedia/Software/Contextual/resources/SR/set14-contextual.zip">set14</a>
-		/
-		<a href="http://cgm.technion.ac.il/Computer-Graphics-Multimedia/Software/Contextual/resources/SR/urban100-contextual.zip">urban100</a>
-        <p></p>
-        <p>We use the contextual loss for two image restoration problems: super-resolution and normal estimation and reveal its relation to the KL-divergence.</p>
-      </td>
-    </tr>
-<!--=================Paper==========================-->
+  <!--=================Paper==========================-->
     <tr onmouseout="CX_stop()" onmouseover="CX_start()" bgcolor="#ffffd0">
       <td width="25%">
         <div class="one">
@@ -188,9 +141,9 @@
         <papertitle>The Contextual Loss for Image Transformation with Non-Aligned Data</papertitle></a><br>
           <strong>Roey Mechrez*</strong>,
 		  Itamar Talmi*,
-		  <a href="http://lihi.eew.technion.ac.il/">Lihi Zelnik-Manor</a>
+		  <a href="https://lihi.net.technion.ac.il/">Lihi Zelnik-Manor</a>
 		  <br>
-        <em>Accepted to ECCV</em>, 2018  <br>
+        <em>ECCV</em>, 2018  <br>
         <a href="http://cgm.technion.ac.il/Computer-Graphics-Multimedia/Software/Contextual/">project page</a>
         /
         <a href="https://github.com/roimehrez/contextualLoss">GitHub</a>
@@ -215,6 +168,89 @@
 		<a href="http://cgm.technion.ac.il/Computer-Graphics-Multimedia/Software/Contextual/resources/f2m/index.html">female2male</a>
         <p></p>
         <p>We suggest a new loss function for image manipulation and generation. We show some very cool applications such as semantic style transfer and single image animations.</p>
+      </td>
+    </tr>
+<!--=================Paper==========================-->
+    <tr onmouseout="pirm_stop()" onmouseover="pirm_start()" >
+      <td width="25%">
+        <div class="one">
+        <div  class="two" id = 'pirm_image'><img style="width: 180px" src='PIRM.jpg'></div>
+        <img style="width: 180px" src='PIRM.jpg'>
+        </div>
+        <script type="text/javascript">
+        function pirm_start() {
+        document.getElementById('hdrnet_image').style.opacity = "1";
+        }
+        function pirm_stop() {
+        document.getElementById('hdrnet_image').style.opacity = "0";
+        }
+        hdrnet_stop()
+        </script>
+      </td>
+      <td valign="top" width="75%">
+        <p><a href="https://arxiv.org/pdf/1803.04626">
+        <img style="width: 25px" src="new.png">
+		<papertitle>2018 PIRM Challenge on Perceptual Image Super-resolution</papertitle></a><br>
+          <a href="https://yochai.webgr.technion.ac.il/">Yochai Blau*</a>, 
+		  <strong>Roey Mechrez*</strong>,
+		   <a href="http://www.vision.ee.ethz.ch/~timofter/">Radu Timofte</a>, 
+		  <a href="https://tomer.net.technion.ac.il/">Tomer Michaeli</a>, 
+		  <a href="https://lihi.net.technion.ac.il/">Lihi Zelnik-Manor</a>
+		  <br>
+        <em>ECCV workshop</em>, 2018 <br>
+        <a href="https://www.pirm2018.org/PIRM-SR.html">project page</a>
+		/
+        <a href="https://arxiv.org/abs/1809.07517">arXiv</a>
+		<br>
+        <p></p>
+        <p>In contrast to previous SR challenges, our evaluation methodology jointly quantifies accuracy and perceptual quality</p>
+      </td>
+    </tr>
+<!--=================Paper==========================-->
+    <tr onmouseout="hdrnet_stop()" onmouseover="hdrnet_start()" >
+      <td width="25%">
+        <div class="one">
+        <div  class="two" id = 'hdrnet_image'><img style="width: 180px" src='SRNE_after.png'></div>
+        <img style="width: 180px" src='SRNE_before.png'>
+        </div>
+        <script type="text/javascript">
+        function hdrnet_start() {
+        document.getElementById('hdrnet_image').style.opacity = "1";
+        }
+        function hdrnet_stop() {
+        document.getElementById('hdrnet_image').style.opacity = "0";
+        }
+        hdrnet_stop()
+        </script>
+      </td>
+      <td valign="top" width="75%">
+        <p><a href="https://arxiv.org/pdf/1803.04626">
+        <img style="width: 25px" src="new.png">
+		<papertitle>Maintain Natural Image Statistics with the Contextual Loss</papertitle></a><br>
+          <strong>Roey Mechrez*</strong>,
+		  Itamar Talmi*,
+		  <a href="https://lihi.net.technion.ac.il/">Lihi Zelnik-Manor</a>
+		  <br>
+        <em>Accepted to ACCV</em>, 2018 <br>
+        <a href="http://cgm.technion.ac.il/Computer-Graphics-Multimedia/Software/Contextual/">project page</a>
+        /
+        <a href="https://github.com/roimehrez/contextualLoss">GitHub</a>
+		/
+        <a href="https://arxiv.org/abs/1803.04626">arXiv</a>
+		<br>
+		Results: <a href="http://cgm.technion.ac.il/Computer-Graphics-Multimedia/Software/Contextual/resources/SR/BSD100-contextual.zip">BSD100</a>
+		/
+		<a href="http://cgm.technion.ac.il/Computer-Graphics-Multimedia/Software/Contextual/resources/SR/PIRM-contextual.zip">PIRM</a>
+		/
+		<a href="http://cgm.technion.ac.il/Computer-Graphics-Multimedia/Software/Contextual/resources/SR/DIV2K-contextual.zip">DIV2K</a>
+		/
+		<a href="http://cgm.technion.ac.il/Computer-Graphics-Multimedia/Software/Contextual/resources/SR/set5-contextual.zip">set5</a>
+		/
+		<a href="http://cgm.technion.ac.il/Computer-Graphics-Multimedia/Software/Contextual/resources/SR/set14-contextual.zip">set14</a>
+		/
+		<a href="http://cgm.technion.ac.il/Computer-Graphics-Multimedia/Software/Contextual/resources/SR/urban100-contextual.zip">urban100</a>
+        <p></p>
+        <p>We use the contextual loss for two image restoration problems: super-resolution and normal estimation and reveal its relation to the KL-divergence.</p>
       </td>
     </tr>
 <!--=================Paper==========================-->
