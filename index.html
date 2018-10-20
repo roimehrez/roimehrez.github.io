@@ -119,6 +119,37 @@
 
   <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
   <!--=================Paper==========================-->
+    <tr onmouseout="isbi_stop()" onmouseover="isbi_start()" >
+      <td width="25%">
+        <div class="one">
+        <div  class="two" id = 'isbi_image'><img style="width: 180px" src='isbi.png'></div>
+        <img style="width: 180px" src='isbi.png'>
+        </div>
+        <script type="text/javascript">
+        function isbi_start() {
+        document.getElementById('isbi_image').style.opacity = "1";
+        }
+        function isbi_stop() {
+        document.getElementById('isbi_image').style.opacity = "0";
+        }
+        hdrnet_stop()
+        </script>
+      </td>
+      <td valign="top" width="75%">
+        <p>
+        <img style="width: 25px" src="new.png">
+		<papertitle>Improving CNN Training using Disentanglement for Liver Lesion Classification in CT</papertitle><br>
+          <a href="https://www.eng.tau.ac.il/~avibc/">Avi Ben-Cohen</a>, 
+		  <strong>Roey Mechrez</strong>,
+		   Noa Yedidia, 
+		  <a href="http://www.eng.tau.ac.il/~hayit/">Hayit Greenspan</a>
+		  <br>
+        <em>Under review at ISBI</em>, 2018 <br>
+		<br>
+        <p> We suggest the synthesis of new data by mixing the class specified and unspecified representation of different factors in the training data.</p>
+      </td>
+    </tr>
+ <!--=================Paper==========================-->
     <tr onmouseout="CX_stop()" onmouseover="CX_start()" bgcolor="#ffffd0">
       <td width="25%">
         <div class="one">
@@ -179,10 +210,10 @@
         </div>
         <script type="text/javascript">
         function pirm_start() {
-        document.getElementById('hdrnet_image').style.opacity = "1";
+        document.getElementById('pirm_image').style.opacity = "1";
         }
         function pirm_stop() {
-        document.getElementById('hdrnet_image').style.opacity = "0";
+        document.getElementById('pirm_image').style.opacity = "0";
         }
         hdrnet_stop()
         </script>
