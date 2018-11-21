@@ -118,7 +118,70 @@
       </tr>
       </table>
 
-  <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+  <table width="100%" align="center" border="0" cellspacing="0" cellpadding="10">
+        <!--=================Paper==========================-->
+    <tr onmouseout="dn_stop()" onmouseover="dn_start()">
+      <td width="25%">
+        <div class="one">
+        <div  class="two" id = 'dn_image'><img style="width: 180px" src='dn_after.png'></div>
+        <img style="width: 180px" src='dn_before.png'>
+        </div>
+        <script type="text/javascript">
+        function dn_start() {
+        document.getElementById('dn_image').style.opacity = "1";
+        }
+        function dn_stop() {
+        document.getElementById('dn_image').style.opacity = "0";
+        }
+        dn_stop()
+        </script>
+      </td>
+      <td valign="top" width="75%">
+        <p>
+        <img style="width: 25px" src="new.png">
+		<papertitle>Dynamic-Net: Tuning the Objective Without Re-training</papertitle><br>
+		   Alon Shoshan, 
+		  <strong>Roey Mechrez</strong>,
+		  <a href="https://lihi.net.technion.ac.il/">Lihi Zelnik-Manor</a>
+		  <br>
+        <em>Under review at CVPR</em>, 2019 <br>
+		<a href="">arXiv</a>
+		<br>
+        <p>We present a first attempt at alleviating the need for re-training. Rather than fixing the network at training time, we train a ``Dynamic-Net'' that can be modified at inference time.</p>
+      </td>
+    </tr>
+	<!--=================Paper==========================-->
+    <tr onmouseout="AFL_stop()" onmouseover="AFL_start()" bgcolor="#ffffd0">
+      <td width="25%">
+        <div class="one">
+        <div  class="two" id = 'afl_image'><img style="width: 180px" src='AFL_after.png'></div>
+        <img style="width: 180px" src='AFL_before.png'>
+        </div>
+        <script type="text/javascript">
+        function AFL_start() {
+        document.getElementById('afl_image').style.opacity = "1";
+        }
+        function AFL_stop() {
+        document.getElementById('afl_image').style.opacity = "0";
+        }
+        AFL_stop()
+        </script>
+      </td>
+      <td valign="top" width="75%">
+        <p>
+        <img style="width: 25px" src="new.png">
+		<papertitle>Adversarial Feedback Loop</papertitle><br>
+          Firas Shama, 
+		  <strong>Roey Mechrez</strong>,
+		   Alon Shoshan, 
+		  <a href="https://lihi.net.technion.ac.il/">Lihi Zelnik-Manor</a>
+		  <br>
+        <em>Under review at CVPR</em>, 2019 <br>
+		<a href="https://arxiv.org/abs/1811.08126">arXiv</a>
+		<br>
+        <p>We propose a novel method that makes an explicit use of the discriminator in test-time, in a feedback manner in order to improve the generator results.</p>
+      </td>
+    </tr>
   <!--=================Paper==========================-->
     <tr onmouseout="isbi_stop()" onmouseover="isbi_start()" >
       <td width="25%">
@@ -151,56 +214,50 @@
         <p> We suggest the synthesis of new data by mixing the class specified and unspecified representation of different factors in the training data.</p>
       </td>
     </tr>
- <!--=================Paper==========================-->
-    <tr onmouseout="CX_stop()" onmouseover="CX_start()" bgcolor="#ffffd0">
+	<!--=================Paper==========================-->
+    <tr onmouseout="hdrnet_stop()" onmouseover="hdrnet_start()" >
       <td width="25%">
         <div class="one">
-        <div  class="two" id = 'CX_image'><img style="width: 180px" src='CX_after.png'></div>
-        <img style="width: 180px" src='CX_before.png'>
+        <div  class="two" id = 'hdrnet_image'><img style="width: 180px" src='SRNE_after.png'></div>
+        <img style="width: 180px" src='SRNE_before.png'>
         </div>
         <script type="text/javascript">
-        function CX_start() {
-        document.getElementById('CX_image').style.opacity = "1";
+        function hdrnet_start() {
+        document.getElementById('hdrnet_image').style.opacity = "1";
         }
-        function CX_stop() {
-        document.getElementById('CX_image').style.opacity = "0";
+        function hdrnet_stop() {
+        document.getElementById('hdrnet_image').style.opacity = "0";
         }
-        CX_stop()
+        hdrnet_stop()
         </script>
       </td>
       <td valign="top" width="75%">
-        <p><a href="https://arxiv.org/pdf/1803.02077">
-		<img style="width: 25px" src="new.png">
-        <papertitle>The Contextual Loss for Image Transformation with Non-Aligned Data</papertitle></a><br>
+        <p><a href="https://arxiv.org/pdf/1803.04626">
+		<papertitle>Maintain Natural Image Statistics with the Contextual Loss</papertitle></a><br>
           <strong>Roey Mechrez*</strong>,
 		  Itamar Talmi*,
 		  <a href="https://lihi.net.technion.ac.il/">Lihi Zelnik-Manor</a>
 		  <br>
-        <em>ECCV</em>, 2018  <br>
+        <em>ACCV</em>, 2018 <br>
         <a href="https://webee.technion.ac.il/labs/cgm/Computer-Graphics-Multimedia/Software/Contextual/">project page</a>
         /
         <a href="https://github.com/roimehrez/contextualLoss">GitHub</a>
 		/
-        <a href="https://arxiv.org/abs/1803.02077">arXiv</a>
-		/
-		<font color="red"><strong>(Oral Acceptance rate 2.4%)</strong></font></a>
+        <a href="https://arxiv.org/abs/1803.04626">arXiv</a>
 		<br>
-		Resaults: 
-		<a href="https://webee.technion.ac.il/labs/cgm/Computer-Graphics-Multimedia/Software/Contextual/resources/comparison/index.html">faces</a>
+		Results: <a href="https://webee.technion.ac.il/labs/cgm/Computer-Graphics-Multimedia/Software/Contextual/resources/SR/BSD100-contextual.zip">BSD100</a>
 		/
-		<a href="https://webee.technion.ac.il/labs/cgm/Computer-Graphics-Multimedia/Software/Contextual/resources/comparison_animal/index.html">animals</a>
+		<a href="https://webee.technion.ac.il/labs/cgm/Computer-Graphics-Multimedia/Software/Contextual/resources/SR/PIRM-contextual.zip">PIRM</a>
 		/
-		<a href="https://webee.technion.ac.il/labs/cgm/Computer-Graphics-Multimedia/Software/Contextual/resources/comparison_obamatrump/index.html">cool politicians</a>
+		<a href="https://webee.technion.ac.il/labs/cgm/Computer-Graphics-Multimedia/Software/Contextual/resources/SR/DIV2K-contextual.zip">DIV2K</a>
 		/
-		<a href="https://webee.technion.ac.il/labs/cgm/Computer-Graphics-Multimedia/Software/Contextual/resources/single_im/index.html">single image animation</a>
+		<a href="https://webee.technion.ac.il/labs/cgm/Computer-Graphics-Multimedia/Software/Contextual/resources/SR/set5-contextual.zip">set5</a>
 		/
-		<a href="https://webee.technion.ac.il/labs/cgm/Computer-Graphics-Multimedia/Software/Contextual/resources/video.html">puppet control</a>
+		<a href="https://webee.technion.ac.il/labs/cgm/Computer-Graphics-Multimedia/Software/Contextual/resources/SR/set14-contextual.zip">set14</a>
 		/
-		<a href="https://webee.technion.ac.il/labs/cgm/Computer-Graphics-Multimedia/Software/Contextual/resources/m2f/index.html">male2female</a>
-		/
-		<a href="https://webee.technion.ac.il/labs/cgm/Computer-Graphics-Multimedia/Software/Contextual/resources/f2m/index.html">female2male</a>
+		<a href="https://webee.technion.ac.il/labs/cgm/Computer-Graphics-Multimedia/Software/Contextual/resources/SR/urban100-contextual.zip">urban100</a>
         <p></p>
-        <p>We suggest a new loss function for image manipulation and generation. We show some very cool applications such as semantic style transfer and single image animations.</p>
+        <p>We use the contextual loss for two image restoration problems: super-resolution and normal estimation and reveal its relation to the KL-divergence.</p>
       </td>
     </tr>
 <!--=================Paper==========================-->
@@ -239,51 +296,55 @@
         <p>In contrast to previous SR challenges, our evaluation methodology jointly quantifies accuracy and perceptual quality</p>
       </td>
     </tr>
-<!--=================Paper==========================-->
-    <tr onmouseout="hdrnet_stop()" onmouseover="hdrnet_start()" >
+ <!--=================Paper==========================-->
+    <tr onmouseout="CX_stop()" onmouseover="CX_start()" bgcolor="#ffffd0">
       <td width="25%">
         <div class="one">
-        <div  class="two" id = 'hdrnet_image'><img style="width: 180px" src='SRNE_after.png'></div>
-        <img style="width: 180px" src='SRNE_before.png'>
+        <div  class="two" id = 'CX_image'><img style="width: 180px" src='CX_after.png'></div>
+        <img style="width: 180px" src='CX_before.png'>
         </div>
         <script type="text/javascript">
-        function hdrnet_start() {
-        document.getElementById('hdrnet_image').style.opacity = "1";
+        function CX_start() {
+        document.getElementById('CX_image').style.opacity = "1";
         }
-        function hdrnet_stop() {
-        document.getElementById('hdrnet_image').style.opacity = "0";
+        function CX_stop() {
+        document.getElementById('CX_image').style.opacity = "0";
         }
-        hdrnet_stop()
+        CX_stop()
         </script>
       </td>
       <td valign="top" width="75%">
-        <p><a href="https://arxiv.org/pdf/1803.04626">
-        <img style="width: 25px" src="new.png">
-		<papertitle>Maintain Natural Image Statistics with the Contextual Loss</papertitle></a><br>
+        <p><a href="https://arxiv.org/pdf/1803.02077">
+        <papertitle>The Contextual Loss for Image Transformation with Non-Aligned Data</papertitle></a><br>
           <strong>Roey Mechrez*</strong>,
 		  Itamar Talmi*,
 		  <a href="https://lihi.net.technion.ac.il/">Lihi Zelnik-Manor</a>
 		  <br>
-        <em>Accepted to ACCV</em>, 2018 <br>
+        <em>ECCV</em>, 2018  <br>
         <a href="https://webee.technion.ac.il/labs/cgm/Computer-Graphics-Multimedia/Software/Contextual/">project page</a>
         /
         <a href="https://github.com/roimehrez/contextualLoss">GitHub</a>
 		/
-        <a href="https://arxiv.org/abs/1803.04626">arXiv</a>
+        <a href="https://arxiv.org/abs/1803.02077">arXiv</a>
+		/
+		<font color="red"><strong>(Oral Acceptance rate 2.4%)</strong></font></a>
 		<br>
-		Results: <a href="https://webee.technion.ac.il/labs/cgm/Computer-Graphics-Multimedia/Software/Contextual/resources/SR/BSD100-contextual.zip">BSD100</a>
+		Resaults: 
+		<a href="https://webee.technion.ac.il/labs/cgm/Computer-Graphics-Multimedia/Software/Contextual/resources/comparison/index.html">faces</a>
 		/
-		<a href="https://webee.technion.ac.il/labs/cgm/Computer-Graphics-Multimedia/Software/Contextual/resources/SR/PIRM-contextual.zip">PIRM</a>
+		<a href="https://webee.technion.ac.il/labs/cgm/Computer-Graphics-Multimedia/Software/Contextual/resources/comparison_animal/index.html">animals</a>
 		/
-		<a href="https://webee.technion.ac.il/labs/cgm/Computer-Graphics-Multimedia/Software/Contextual/resources/SR/DIV2K-contextual.zip">DIV2K</a>
+		<a href="https://webee.technion.ac.il/labs/cgm/Computer-Graphics-Multimedia/Software/Contextual/resources/comparison_obamatrump/index.html">cool politicians</a>
 		/
-		<a href="https://webee.technion.ac.il/labs/cgm/Computer-Graphics-Multimedia/Software/Contextual/resources/SR/set5-contextual.zip">set5</a>
+		<a href="https://webee.technion.ac.il/labs/cgm/Computer-Graphics-Multimedia/Software/Contextual/resources/single_im/index.html">single image animation</a>
 		/
-		<a href="https://webee.technion.ac.il/labs/cgm/Computer-Graphics-Multimedia/Software/Contextual/resources/SR/set14-contextual.zip">set14</a>
+		<a href="https://webee.technion.ac.il/labs/cgm/Computer-Graphics-Multimedia/Software/Contextual/resources/video.html">puppet control</a>
 		/
-		<a href="https://webee.technion.ac.il/labs/cgm/Computer-Graphics-Multimedia/Software/Contextual/resources/SR/urban100-contextual.zip">urban100</a>
+		<a href="https://webee.technion.ac.il/labs/cgm/Computer-Graphics-Multimedia/Software/Contextual/resources/m2f/index.html">male2female</a>
+		/
+		<a href="https://webee.technion.ac.il/labs/cgm/Computer-Graphics-Multimedia/Software/Contextual/resources/f2m/index.html">female2male</a>
         <p></p>
-        <p>We use the contextual loss for two image restoration problems: super-resolution and normal estimation and reveal its relation to the KL-divergence.</p>
+        <p>We suggest a new loss function for image manipulation and generation. We show some very cool applications such as semantic style transfer and single image animations.</p>
       </td>
     </tr>
 <!--=================Paper==========================-->
