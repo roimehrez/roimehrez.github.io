@@ -119,6 +119,36 @@
       </table>
 
   <table width="100%" align="center" border="0" cellspacing="0" cellpadding="10">
+  <!--=================Paper==========================-->
+    <tr onmouseout="sal2_stop()" onmouseover="sal2_start()">
+      <td width="25%">
+        <div class="one">
+        <div  class="two" id = 'sal2_image'><img style="width: 180px" src='sal_after.png'></div>
+        <img style="width: 180px" src='sal_before.png'>
+        </div>
+        <script type="text/javascript">
+        function sal2_start() {
+        document.getElementById('sal2_image').style.opacity = "1";
+        }
+        function sal2_stop() {
+        document.getElementById('sal2_image').style.opacity = "0";
+        }
+        sal2_stop()
+        </script>
+      </td>
+      <td valign="top" width="75%">
+        <p><a href="https://arxiv.org/pdf/1612.02184">
+        <papertitle>Saliency Driven Image Manipulation</papertitle></a><br>
+          <strong>Roey Mechrez</strong>,
+		 <a href="https://research.adobe.com/person/eli-shechtman/">Eli Shechtman</a>
+		  <a href="http://lihi.eew.technion.ac.il/">Lihi Zelnik-Manor</a>
+		  <br>
+        to appear at <em>Machine Vision and Applications (special issue: IEEE WACV'18) </em> <br>
+        <a href="https://webee.technion.ac.il/labs/cgm/Computer-Graphics-Multimedia/Software/saliencyManipulation/">project page</a>
+        <p></p>
+        <p>The goal of this paper is to manipulating images in order to control the saliency of objects. We propose an approach that considers the internal color and saliency properties of the image.</p>
+      </td>
+    </tr>
         <!--=================Paper==========================-->
     <tr onmouseout="dn_stop()" onmouseover="dn_start()">
       <td width="25%">
@@ -386,7 +416,7 @@
 		/
 		<a href="http://wacv18.uccs.us/"><font color="red"><strong>Best paper (people's choice)</strong></font></a>
         <p></p>
-        <p>We suggest a new loss function for image manipulation and generation. We show some very cool applications such as semantic style transfer and single image animations.</p>
+        <p>Manipulating images in order to control the saliency of objects is the goal of this paper. We propose an approach that considers the internal color and saliency properties of the image. It changes the saliency map via an optimization framework that relies on patch-based manipulation using only patches from within the same image to maintain its appearance characteristics.</p>
       </td>
     </tr>
 <!--=================Paper==========================-->
